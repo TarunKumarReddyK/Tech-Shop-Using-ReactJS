@@ -6,3 +6,29 @@ This project is a **React-based E-Commerce website** built to deliver an engagin
 The project leverages modern web technologies like React, React Router, and CSS for responsive and interactive design. It stores cart data locally, ensuring a smooth user experience even when the browser is refreshed. The modular structure makes it easy to add new features and scale as needed.  
 
 Whether you're looking to showcase products or provide a real-world shopping experience, this project offers a solid foundation for e-commerce development.  
+## Features ✨  
+### Core Functionalities  
+1. **Product Listing**:  
+   - Displays a wide range of products.  
+   - Each product includes an image, title, description, price, and ratings.  
+   - Dynamic grid layout adapts to screen size for responsive browsing.
+
+2. **Dynamic Filters**:  
+   - Filter products by brand, category, and price range.  
+   - Range slider for selecting price intervals.  
+   - Supports multi-select options for brands and categories.  
+
+3. **Shopping Cart**:  
+   - Users can add, update, and remove items from the cart.  
+   - Displays real-time updates on total items, prices, and discounts.  
+   - Data is persisted using Local Storage.  
+
+4. **User Notifications**:  
+   - Real-time feedback via toast notifications.  
+   - Messages for actions like adding items to the cart or attempting invalid actions.  
+
+5. **Responsive Design**:  
+   - Fully optimized for both mobile and desktop users.  
+   - Adapts seamlessly to various screen sizes and orientations.  
+
+---
