@@ -1,13 +1,51 @@
+/* Apply a black background to the entire body */
 body {
+  background-color: #000;
+  color: #fff; /* Set text color to white for better contrast */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Ensure all containers and main elements have a black background */
+.container, .content, .navbar, .search-popup-content {
+  background-color: #000;
+  color: #fff; /* Optional: set text color to white for better contrast */
+}
+
+/* Style links for better visibility */
+a {
+  color: #0d6efd; /* Link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a58ca; /* Hover link color */
+}
+
+/* Style buttons */
+button {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Style input fields and textareas */
+input, textarea {
+  background-color: #ffffff;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+/* Add padding to the main content area */
+.container, .content {
+  padding: 20px;
 }

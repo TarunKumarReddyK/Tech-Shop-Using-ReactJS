@@ -1,0 +1,39 @@
+/* Price slider section */
+.price-slider label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .price-slider .slider {
+    width: 100%;
+    appearance: none;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ffc107, #000);
+    outline: none;
+  }
+  
+  .price-slider .slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffc107;
+    cursor: pointer;
+  }
+  
+  .price-slider .slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffc107;
+    cursor: pointer;
+  }
+  
+  .price-slider p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333;
+  }
