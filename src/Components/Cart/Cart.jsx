@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import './Cart.css'; // Ensure this has the necessary styles
+import './Cart.css'; 
 import { FaTrashAlt } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom'; // Importing useNavigate
+import { useNavigate } from 'react-router-dom'; 
 
 const Cart = () => {
   const [cart, setCart] = useState([]);
-  const navigate = useNavigate(); // Initialize navigate function
-
+  const navigate = useNavigate(); 
   useEffect(() => {
-    // Load cart from local storage on initial render
     const storedCart = JSON.parse(localStorage.getItem('cart')) || [];
     setCart(storedCart);
   }, []);
@@ -28,7 +26,6 @@ const Cart = () => {
     setCart(updatedCart);
     localStorage.setItem('cart', JSON.stringify(updatedCart));
   };
-
   const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
   const originalPrice = cart.reduce(
     (acc, item) => acc + item.originalPrice * item.quantity,
@@ -38,9 +35,8 @@ const Cart = () => {
   const discount = originalPrice - totalPrice;
 
   const handleStartShopping = () => {
-    navigate('/'); // This will navigate to the ProductList page
+    navigate('/'); 
   };
-
   return (
     <div className="cart-page">
       <div className="cart-container">
