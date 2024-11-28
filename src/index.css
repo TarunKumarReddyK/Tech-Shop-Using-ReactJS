@@ -45,7 +45,6 @@ input::placeholder {
   color: #bbb;
 }
 
-/* Add padding to the main content area */
 .container, .content {
   padding: 20px;
 }
