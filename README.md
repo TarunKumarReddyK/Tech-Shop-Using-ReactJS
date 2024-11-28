@@ -32,3 +32,59 @@ Whether you're looking to showcase products or provide a real-world shopping exp
    - Adapts seamlessly to various screen sizes and orientations.  
 
 ---
+## Additional Features 🌟  
+- **Discount Calculations**:  
+  - Calculates and displays the total discount on the cart.  
+
+- **Order Summary**:  
+  - Clear breakdown of item prices, discounts, and final totals in the cart.  
+
+- **Empty Cart State**:  
+  - Displays a visually appealing message and call-to-action when the cart is empty.  
+
+- **Customizable Styling**:  
+  - Modular CSS allows easy customization of themes and layouts.  
+
+- **Error Handling**:  
+  - Graceful handling of edge cases such as exceeding stock limits or invalid inputs.  
+
+---
+
+## Technologies Used 🛠️  
+1. **React**:  
+   - Modular and reusable component architecture.  
+   - State and lifecycle management for dynamic updates.  
+
+2. **React Router**:  
+   - Enables seamless navigation between pages.  
+   - Supports dynamic routing for better user experience.  
+
+3. **CSS**:  
+   - Styled Components and traditional CSS for modern and responsive designs.  
+   - Includes custom animations for hover effects and notifications.  
+
+4. **React Icons**:  
+   - Wide variety of icons to enhance UI elements.  
+
+5. **Local Storage**:  
+   - Stores user cart data to persist across sessions.  
+
+6. **Toastify or Custom Notifications**:  
+   - Provides a visual, non-intrusive notification system.  
+
+7. **Git**:  
+   - Version control for collaboration and code tracking.  
+
+---
+
+## Setup and Installation ⚙️  
+### Prerequisites  
+Ensure you have the following installed:  
+- **Node.js**: [Download Node.js](https://nodejs.org)  
+- **Git**: [Download Git](https://git-scm.com)  
+
+### Installation Steps  
+1. **Clone this repository**:  
+   Open your terminal and execute:  
+   ```bash
+   git clone gh repo clone TarunKumarReddyK/Tech-Shop-Using-ReactJS
