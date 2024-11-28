@@ -61,7 +61,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>
-          2024 | All Rights Reserved. Built by |{" "}
+          2024 | All Rights Reserved. Created by  |{" "}
           <span className="footer-author">Tarun Kumar Reddy K</span>
         </p>
         <div className="footer-social-icons">
